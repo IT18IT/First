@@ -1,0 +1,13 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int fog = 2;
+        int thundershtorm = 15;
+        if (fog > thundershtorm){
+        System.out.println("fuck");
+        }
+        if (fog < thundershtorm){
+        System.out.println("nice");
+        }
+    }
+}
