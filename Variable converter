@@ -1,0 +1,9 @@
+public class Program
+{
+ static int a = 2;
+ static double b = 4.5;
+    public static void main(String[] args) {
+        int c = (int) b;
+    System.out.println (c);
+    }
+}
