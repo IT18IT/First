@@ -1,0 +1,15 @@
+public class Program
+{
+    public static void main(String[] args) {
+        wawe();
+        forest();
+    }
+    static void wawe(){
+        int a = 900;
+        int b = 100;
+        System.out.println(a+b);
+    }
+    static void forest(){
+        System.out.println("1111");
+    }
+}
