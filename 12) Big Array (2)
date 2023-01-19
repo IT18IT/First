@@ -1,0 +1,14 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int wolf[] = new int[10];
+        wolf[0] = 11;
+        wolf[1] = 22;
+        wolf[2] = 33;
+        wolf[3] = 59;
+        wolf[4] = 44;
+        
+        System.out.println(wolf[1]+wolf[0]);
+        System.out.println(wolf[0]);
+    }
+}
