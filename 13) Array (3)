@@ -1,0 +1,13 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int golf[] = new int[2];
+        golf[0] = 1000000;
+        golf[1] = -999999;
+        System.out.println(golf[0]);
+        System.out.println(golf[1]);
+        
+        
+        
+    }
+}
