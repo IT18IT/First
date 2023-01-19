@@ -1,0 +1,15 @@
+public class Fortune{
+ public static void main(String[]args){
+     System.out.println(5);
+ 
+ 
+     int apple[] = new int[5];
+//assigning values ​​to an array
+     apple [0] = 50;
+     apple [1] = 60;
+     apple [2] = 70;
+     apple [3] = 88;
+     apple [4] = 90;
+     System.out.println(apple[4]);
+ }
+}
