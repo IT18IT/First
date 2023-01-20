@@ -1,0 +1,12 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int money = 10;
+        int sex = 9;
+        if (money>sex){
+System.out.println("Dick");
+        }else{
+System.out.println("Pussy");
+        }
+    }
+}
