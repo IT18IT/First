@@ -1,0 +1,14 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int age = 3;
+        int box = 2;
+        if(age>box){
+        System.out.println("More");
+        }else if(age<box){
+       System.out.println("Less");   
+        }else{
+        System.out.println("Equals");
+        }
+    }
+}    
