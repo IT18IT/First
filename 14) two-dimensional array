@@ -1,0 +1,11 @@
+public class Massive{
+public static void main(String[]args){
+int next[][] = new int[2][2];
+next[0][1] = 34;
+next[0][0] = 78;
+next[1][1] = 951;
+System.out.println(next[1][1]);
+
+
+}
+}
