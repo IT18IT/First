@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class Butter{
+ public static void main(String[]args){
+Scanner money = new Scanner (System.in);
+System.out.println("enter amount");
+int sex = money.nextInt();
+
+if (sex>10){
+System.out.println("cash advance");
+}else{
+System.out.println("Error,the minimum amount must be greater 10");
+}
+        
+    }
+}
