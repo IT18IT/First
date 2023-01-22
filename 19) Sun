@@ -1,0 +1,28 @@
+public class Program
+{
+    public static void main(String[] args) {
+        green();
+        sun();
+    }
+   static void green(){
+    int a = 9;
+    int b = 2;
+   System.out.println(a+b);
+   int run = 1;
+   int go = 2;
+   if(run>go){
+   System.out.println("$$");
+   }else if(run<go){
+   System.out.println("€€");
+   }else{
+   System.out.println("¥¥");
+   }
+}
+   static void sun(){
+   int shuga[][] = new int[8][8];
+   shuga[0][0] = 12;
+   System.out.println(shuga[0][0]);
+   }
+}
+
+
