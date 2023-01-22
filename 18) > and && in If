@@ -1,0 +1,11 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int num1 = 8;
+        int num2 = 6;
+    if(num1>num2 && num1>7){
+System.out.println("The first number is greater than 
+the second and greater 7");
+    }
+    }
+}
