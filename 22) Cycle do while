@@ -1,0 +1,14 @@
+public class Program
+{
+    public static void main(String[] args) {
+    
+    int a = 7;
+    
+    do{
+      System.out.println(a);
+      a--;
+    }
+    while(a>0);
+    
+  }
+}
