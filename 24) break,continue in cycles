@@ -1,0 +1,23 @@
+public class Program
+{
+    public static void main(String[] args) {
+        
+        honey();
+  }
+   static void loly(){
+       for(int a = 1;a<10;a++){
+         if(a == 5)
+          break;
+       System.out.println(a);
+       }
+  }
+  static void honey(){
+      for(int a = 1;a<10;a++){
+         if(a == 5)
+          continue;
+       System.out.println(a);
+       }
+  }
+}
+//break stops the loop at the selected number
+//continue skips the number in the loop without breaking this loop
