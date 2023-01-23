@@ -1,0 +1,22 @@
+public class Program
+{
+    public static void main(String[] args) {
+        game();
+    }
+    static void game(){
+    int x = 89;
+    switch(x){
+    
+     case 1:
+      System.out.println("Num 1");
+     break;
+     
+     case 89:
+      System.out.println("Num 8");
+     break;
+     
+     default:
+     System.out.println("Not found");
+    }
+    }
+}
