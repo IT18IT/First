@@ -1,0 +1,18 @@
+public class Program
+{
+    public static void main(String[] args) {
+    
+       Person vitya = new Person();
+        System.out.println(vitya.height);
+       vitya.say("Alana");
+    }
+}
+
+
+public class Person{
+    public int height = 180;
+    
+    public void say(String name){
+ System.out.println("Hello," + name);
+    }
+}
