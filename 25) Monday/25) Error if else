@@ -1,0 +1,12 @@
+public class Program
+{
+    public static void main(String[] args) {
+        int w = 1;
+        
+        if(w>0 && w<2){
+    System.out.println("Monday");
+        }else{
+    System.out.println("Error");
+        }
+    }
+}
