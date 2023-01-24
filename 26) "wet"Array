@@ -1,0 +1,10 @@
+public class Program
+{
+    public static void main(String[] args) {
+     int wet[][] = new int[9][9];
+     wet [0][0] = 1;
+     wet [7][7] = 4;
+     System.out.println
+     (wet[0][0]+ wet[7][7]);
+    }
+}
