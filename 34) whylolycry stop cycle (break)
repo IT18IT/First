@@ -1,0 +1,16 @@
+public class Program
+{
+    public static void main(String[] args) {
+        whylolycry();
+    }
+    
+public static void whylolycry(){
+    for(int pussy = 1;pussy<15;
+    pussy++){
+        if(pussy == 12)
+            break;
+        
+    System.out.println(pussy);
+    }
+}
+}
