@@ -1,0 +1,18 @@
+public class Program
+{
+    public static void main(String[] args) {
+        car();
+    }
+    
+    public static void car(){
+    int a = 11;
+    System.out.println(a);
+    
+    int[] bus = new int[8];
+    bus[0] = 8;
+    bus[5] = 2;
+    bus[7] = 1;
+    System.out.println(bus[5]+bus[7]
+    +bus[0]);
+    }
+}
