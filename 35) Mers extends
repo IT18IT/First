@@ -1,0 +1,18 @@
+public class Program
+{
+    public static void main(String[] args) {
+       B mers = new B(); // object
+       mers.launch(); 
+    
+    }
+}
+
+public class A {
+    public void launch(){
+    System.out.println("Go");
+    }
+}
+
+public class B extends A{
+    
+}
