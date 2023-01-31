@@ -1,0 +1,22 @@
+public class Program
+{
+    public static void main(String[] args) {
+      Animal animal = new Animal();
+      animal.say();
+        
+      animal = new Cat();
+      animal.say();
+    }
+}
+
+public class Animal{
+    public void say(){
+System.out.println("Unknown sound");
+    }
+}
+
+public class Cat extends Animal{
+    public void say(){
+System.out.println("Meow");
+    }
+}
