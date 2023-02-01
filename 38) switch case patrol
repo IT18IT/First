@@ -1,0 +1,27 @@
+public class Program
+{
+    public static void main(String[] args) {
+        speed();
+    }
+    public static void speed(){
+    int x = 90;
+     switch(x){
+    
+     case 40:
+      System.out.println("Normal");
+     break;
+     
+     case 50:
+      System.out.println("Normal50");
+     break;
+     
+     case 70:
+      System.out.println("Excess");
+     break;
+     
+     default:
+     System.out.println("Keep Patrolling");
+    }
+    }
+}
+
