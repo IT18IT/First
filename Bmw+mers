@@ -1,0 +1,21 @@
+public class Program
+{
+    public static void main(String[] args) {
+        mers();
+        bmw();
+        
+    }
+    public static void mers(){
+    long g = 6;
+    long w = 3;
+    String y = "E";
+    String r = " AMG";
+    System.out.println(y+g+w+r);
+    }
+    public static void bmw(){
+    int a = 7;
+    String b = "X";
+    String c = " M";
+    System.out.println(b+a+c);
+    }
+}
