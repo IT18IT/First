@@ -1,0 +1,38 @@
+public class Program
+{
+    public static void main(String[] args) {
+    
+       Person yan = new Person(120);
+  System.out.println(yan.height);
+       yan.say("Alana");
+       
+       Person max = new Person();
+System.out.println(max.height);
+    }
+}
+
+
+public class Person{
+    public int height = 180;
+    
+    public void say(String name){
+ System.out.println("Hello," + name);
+    }
+ 
+ 
+//this is a constructor
+    
+public Person (int h){
+    height = h;
+}
+
+// constructor 2
+public Person(){}
+
+
+}
+
+//Out 
+120
+Hello,Alana
+180
