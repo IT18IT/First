@@ -1,0 +1,27 @@
+public class Program
+{
+    public static void main(String[] args) {
+Animal animal = new Animal(5);
+Animal animal2 = new Animal(5);
+        System.out.println
+(animal.equals(animal2));    
+    }
+}
+
+class Animal{
+ private int penis;
+ public Animal(int penis){
+     this.penis = penis;
+ }
+ @Override
+ public boolean equals(Object obj){
+     Animal otherAnimal = (Animal) obj;
+     return this.penis == otherAnimal.penis;
+ }
+ 
+ 
+    
+}
+
+
+// Out true
