@@ -4,5 +4,8 @@ public class Program
         int sex[] = new int[5];
         int kex[] = new int[]{1,2,3,5};
         System.out.println(kex[2]);
+System.out.println(kex[4]);
     }
 }
+
+// array
