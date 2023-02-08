@@ -1,0 +1,40 @@
+public class Program
+{
+
+   
+   
+    public static void main(String[] args) {
+    System.out.println("nothing");
+    Tfv get = new Tfv();
+    get.fur();
+    Tfm gett = new Tfm();
+    gett.fuk();
+    }
+}
+
+public class Tfv{
+
+ final int x = 11;
+    
+ public void fur(){     
+  System.out.println(x);
+}
+}
+
+public class Tfm{
+ final void fuk(){
+  System.out.println("Final method");
+    }
+}
+class TestX extends Tfm{
+    void fuk();
+    // error 
+}
+
+final class Tfc{
+    
+}
+
+class NextTest extends Tfc{
+    // eror
+}
